@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Large / generated artifacts
+*.csv
+logs/
+outputs/
+results/
+summaries/
+pilot outputs/
+secondary files/
+
+# Runtime
+run.log
+run.pid
+*.csv
+outputs/
+results/
+logs/
+

@@ -1,0 +1,886 @@
+{
+  "summary": {
+    "total_unique_topics": 101,
+    "total_topic_mentions": 115,
+    "total_papers": 23,
+    "average_topics_per_paper": 5.0,
+    "topics_merged": 3
+  },
+  "topics": [
+    {
+      "topic": "conformal field theory",
+      "count": 6,
+      "papers_mentioning": 6,
+      "paper_ids": [
+        "9202027",
+        "9205072",
+        "9205108",
+        "9206078",
+        "9211097",
+        "9211112"
+      ]
+    },
+    {
+      "topic": "string theory",
+      "count": 3,
+      "papers_mentioning": 3,
+      "paper_ids": [
+        "9206078",
+        "9206107",
+        "9209051"
+      ]
+    },
+    {
+      "topic": "kac-moody algebra",
+      "count": 2,
+      "papers_mentioning": 2,
+      "paper_ids": [
+        "9205072",
+        "9205080"
+      ]
+    },
+    {
+      "topic": "modular invariance",
+      "count": 2,
+      "papers_mentioning": 2,
+      "paper_ids": [
+        "9205072",
+        "9210127"
+      ]
+    },
+    {
+      "topic": "supergravity",
+      "count": 2,
+      "papers_mentioning": 2,
+      "paper_ids": [
+        "9206019",
+        "9206078"
+      ]
+    },
+    {
+      "topic": "superstring theory",
+      "count": 2,
+      "papers_mentioning": 2,
+      "paper_ids": [
+        "9210127",
+        "9211097"
+      ]
+    },
+    {
+      "topic": "tau-function",
+      "count": 2,
+      "papers_mentioning": 2,
+      "paper_ids": [
+        "9203043",
+        "9208046"
+      ]
+    },
+    {
+      "topic": "virasoro algebra",
+      "count": 2,
+      "papers_mentioning": 2,
+      "paper_ids": [
+        "9209051",
+        "9209067"
+      ]
+    },
+    {
+      "topic": "yang-baxter equation",
+      "count": 2,
+      "papers_mentioning": 2,
+      "paper_ids": [
+        "9211111",
+        "9211112"
+      ]
+    },
+    {
+      "topic": "airy kernel",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211141"
+      ]
+    },
+    {
+      "topic": "anomaly polynomial",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210127"
+      ]
+    },
+    {
+      "topic": "bethe ansatz",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211111"
+      ]
+    },
+    {
+      "topic": "bogomolnyi bound",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211097"
+      ]
+    },
+    {
+      "topic": "bosonic string theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205108"
+      ]
+    },
+    {
+      "topic": "brst algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206019"
+      ]
+    },
+    {
+      "topic": "brst cohomology",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209051"
+      ]
+    },
+    {
+      "topic": "caldeira leggett model",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9207100"
+      ]
+    },
+    {
+      "topic": "canonical transformation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205080"
+      ]
+    },
+    {
+      "topic": "central extension",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209067"
+      ]
+    },
+    {
+      "topic": "chern-simons term",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203013"
+      ]
+    },
+    {
+      "topic": "christoffel connection",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210027"
+      ]
+    },
+    {
+      "topic": "cohomology ring",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209051"
+      ]
+    },
+    {
+      "topic": "conformal anomaly",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206019"
+      ]
+    },
+    {
+      "topic": "curvature scalar",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210027"
+      ]
+    },
+    {
+      "topic": "dilaton function",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205108"
+      ]
+    },
+    {
+      "topic": "dissipative quantum mechanic",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9207100"
+      ]
+    },
+    {
+      "topic": "drinfeld realization",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209014"
+      ]
+    },
+    {
+      "topic": "drinfeld-sokolov construction",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211112"
+      ]
+    },
+    {
+      "topic": "duality-type symmetry",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211021"
+      ]
+    },
+    {
+      "topic": "eternal exponential expansion",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211021"
+      ]
+    },
+    {
+      "topic": "feynman path integral",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9207100"
+      ]
+    },
+    {
+      "topic": "fredholm determinant",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211141"
+      ]
+    },
+    {
+      "topic": "gauged wzw model",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206078"
+      ]
+    },
+    {
+      "topic": "geodesic distance",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210027"
+      ]
+    },
+    {
+      "topic": "ghost action",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206019"
+      ]
+    },
+    {
+      "topic": "grand desert theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205029"
+      ]
+    },
+    {
+      "topic": "grassmannian",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203043"
+      ]
+    },
+    {
+      "topic": "graviton spectral property",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211021"
+      ]
+    },
+    {
+      "topic": "green-schwarz mechanism",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210127"
+      ]
+    },
+    {
+      "topic": "heterotic string theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205108"
+      ]
+    },
+    {
+      "topic": "higher spin theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203013"
+      ]
+    },
+    {
+      "topic": "hilbert space unitarity",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209067"
+      ]
+    },
+    {
+      "topic": "hopf algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206024"
+      ]
+    },
+    {
+      "topic": "hopf term",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203013"
+      ]
+    },
+    {
+      "topic": "jackson integral",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209014"
+      ]
+    },
+    {
+      "topic": "kac-moody current algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206107"
+      ]
+    },
+    {
+      "topic": "kaluza-klein theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205029"
+      ]
+    },
+    {
+      "topic": "knizhnik-zamolodchikov equation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209014"
+      ]
+    },
+    {
+      "topic": "kp-hierarchy",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9208046"
+      ]
+    },
+    {
+      "topic": "landau-ginzburg",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9208046"
+      ]
+    },
+    {
+      "topic": "landau-ginzburg theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211097"
+      ]
+    },
+    {
+      "topic": "langevin equation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9207100"
+      ]
+    },
+    {
+      "topic": "laplace-beltrami operator",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210027"
+      ]
+    },
+    {
+      "topic": "large n limit",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9202027"
+      ]
+    },
+    {
+      "topic": "lie algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211111"
+      ]
+    },
+    {
+      "topic": "liouville equation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211112"
+      ]
+    },
+    {
+      "topic": "liouville gravity",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209051"
+      ]
+    },
+    {
+      "topic": "meromorphic cft",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205072"
+      ]
+    },
+    {
+      "topic": "miwa time",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9208046"
+      ]
+    },
+    {
+      "topic": "modular invariant",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9202027"
+      ]
+    },
+    {
+      "topic": "naked singularity",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206078"
+      ]
+    },
+    {
+      "topic": "neumann sery",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211141"
+      ]
+    },
+    {
+      "topic": "niemeier lattix",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205072"
+      ]
+    },
+    {
+      "topic": "nlsm",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203013"
+      ]
+    },
+    {
+      "topic": "nonrenormalizable term",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205029"
+      ]
+    },
+    {
+      "topic": "painleve transcendent",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211141"
+      ]
+    },
+    {
+      "topic": "poisson bracket",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205080"
+      ]
+    },
+    {
+      "topic": "pre-big bang string theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211021"
+      ]
+    },
+    {
+      "topic": "quantum dissipation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9207100"
+      ]
+    },
+    {
+      "topic": "quantum euclidean algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206024"
+      ]
+    },
+    {
+      "topic": "quantum group theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211111"
+      ]
+    },
+    {
+      "topic": "quantum hall effect",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9202027"
+      ]
+    },
+    {
+      "topic": "quantum integrability",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211111"
+      ]
+    },
+    {
+      "topic": "quantum mechanic",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205080"
+      ]
+    },
+    {
+      "topic": "riemannian manifold",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210027"
+      ]
+    },
+    {
+      "topic": "schur polynomial",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203043"
+      ]
+    },
+    {
+      "topic": "screening current",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209014"
+      ]
+    },
+    {
+      "topic": "seesaw mechanism",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205029"
+      ]
+    },
+    {
+      "topic": "soliton number",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211097"
+      ]
+    },
+    {
+      "topic": "spin-coherent state",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203013"
+      ]
+    },
+    {
+      "topic": "string cosmology",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211021"
+      ]
+    },
+    {
+      "topic": "string equation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203043"
+      ]
+    },
+    {
+      "topic": "string vacua",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205029"
+      ]
+    },
+    {
+      "topic": "su(2) lie algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206107"
+      ]
+    },
+    {
+      "topic": "super-hamiltonian",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205080"
+      ]
+    },
+    {
+      "topic": "supersymmetry",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206019"
+      ]
+    },
+    {
+      "topic": "suq(2) contraction",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206024"
+      ]
+    },
+    {
+      "topic": "toda theory",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211112"
+      ]
+    },
+    {
+      "topic": "toeplitz matrix",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9211141"
+      ]
+    },
+    {
+      "topic": "topological gravity",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9208046"
+      ]
+    },
+    {
+      "topic": "unitary representation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209067"
+      ]
+    },
+    {
+      "topic": "universal enveloping algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206024"
+      ]
+    },
+    {
+      "topic": "virasoro constraint",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9203043"
+      ]
+    },
+    {
+      "topic": "virasoro generator",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206107"
+      ]
+    },
+    {
+      "topic": "w-infinity algebra",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209067"
+      ]
+    },
+    {
+      "topic": "wess-zumino-witten model",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206107"
+      ]
+    },
+    {
+      "topic": "weyl anomaly coefficient",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9205108"
+      ]
+    },
+    {
+      "topic": "wick theorem",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9209014"
+      ]
+    },
+    {
+      "topic": "winding state",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9202027"
+      ]
+    },
+    {
+      "topic": "woronowicz deformation",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9206024"
+      ]
+    },
+    {
+      "topic": "yang-mills chern-simons form",
+      "count": 1,
+      "papers_mentioning": 1,
+      "paper_ids": [
+        "9210127"
+      ]
+    }
+  ],
+  "merge_log": [
+    {
+      "canonical": "kac-moody algebra",
+      "total_count": 2,
+      "total_papers_mentioning": 2,
+      "merged_from": [
+        {
+          "variant": "kac-moody algebra",
+          "count": 1,
+          "papers_mentioning": 1
+        },
+        {
+          "variant": "kac-moody algebras",
+          "count": 1,
+          "papers_mentioning": 1
+        }
+      ]
+    },
+    {
+      "canonical": "virasoro algebra",
+      "total_count": 2,
+      "total_papers_mentioning": 2,
+      "merged_from": [
+        {
+          "variant": "virasoro algebra",
+          "count": 1,
+          "papers_mentioning": 1
+        },
+        {
+          "variant": "virasoro algebras",
+          "count": 1,
+          "papers_mentioning": 1
+        }
+      ]
+    },
+    {
+      "canonical": "superstring theory",
+      "total_count": 2,
+      "total_papers_mentioning": 2,
+      "merged_from": [
+        {
+          "variant": "superstring theories",
+          "count": 1,
+          "papers_mentioning": 1
+        },
+        {
+          "variant": "superstring theory",
+          "count": 1,
+          "papers_mentioning": 1
+        }
+      ]
+    }
+  ]
+}
