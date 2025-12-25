@@ -3,7 +3,11 @@
 Hyperparameter tuning for ANN and LSTM regressors predicting 2022 citations.
 
 Inputs
+<<<<<<< HEAD
 - Excel: /Users/swayam/Downloads/1992.xlsx (Sheet 0)
+=======
+- Excel: /Users/swayamprabha/Downloads/1992.xlsx (Sheet 0)
+>>>>>>> 01b0bc72 (results for ann and lstm)
   Required columns: 'Article Id', 2021, 2022
 - Similarity CSV (workspace): papers_vs_combined_topics_tfidf_cosine.csv
   Required columns: paper_id, cosine_tfidf_similarity
@@ -50,7 +54,11 @@ import torch
 from torch import nn
 from torch.utils.data import DataLoader, TensorDataset
 
+<<<<<<< HEAD
 EXCEL_PATH = Path("/Users/swayam/Downloads/1992.xlsx")
+=======
+EXCEL_PATH = Path("/Users/swayamprabha/Downloads/1992.xlsx")
+>>>>>>> 01b0bc72 (results for ann and lstm)
 SIM_CSV_PATH = Path("papers_vs_combined_topics_tfidf_cosine.csv")
 
 OUT_ANN = Path("ann")
@@ -170,7 +178,11 @@ class ANNRegressor(nn.Module):
         layers: List[nn.Module] = []
         in_dim = 2
         for h in hidden_sizes:
+<<<<<<< HEAD
             layers.extend([nn.Linear(in_dim, h), nn.BatchNorm1d(h), act, nn.Dropout(p=dropout)])
+=======
+            layers.extend([nn.Linear(in_dim, h), nn.LayerNorm(h), act, nn.Dropout(p=dropout)])
+>>>>>>> 01b0bc72 (results for ann and lstm)
             in_dim = h
         layers.append(nn.Linear(in_dim, 1))
         self.net = nn.Sequential(*layers)

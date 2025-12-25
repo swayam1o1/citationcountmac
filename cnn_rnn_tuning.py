@@ -34,7 +34,11 @@ import torch
 from torch import nn
 from torch.utils.data import DataLoader, TensorDataset
 
+<<<<<<< HEAD
 EXCEL_PATH = Path("/Users/swayam/Downloads/1992.xlsx")
+=======
+EXCEL_PATH = Path("/Users/swayamprabha/Downloads/1992.xlsx")
+>>>>>>> 01b0bc72 (results for ann and lstm)
 SIM_CSV_PATH = Path("papers_vs_combined_topics_tfidf_cosine.csv")
 
 OUT_CNN = Path("cnn")
