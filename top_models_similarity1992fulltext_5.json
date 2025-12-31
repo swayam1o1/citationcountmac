@@ -1,0 +1,163 @@
+{
+  "best": {
+    "ann": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/ann_similarity1992fulltext_5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/ann_similarity1992fulltext_5/exp_8bbe387e51e5",
+      "exp_id": "exp_8bbe387e51e5",
+      "hyperparameters": {
+        "activation": "elu",
+        "batch_size": 64,
+        "dropout": 0.2,
+        "epochs": 40,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "hidden_sizes": [
+          128,
+          64,
+          32
+        ],
+        "learning_rate": 0.003,
+        "model_type": "ann",
+        "optimizer": "adam",
+        "seed": 42,
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.44342106580734253,
+        "mse": 0.8678539395332336,
+        "r2": 0.7062482687973841,
+        "rmse": 0.9315867858300877
+      }
+    },
+    "cnn": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/cnn_similarity1992fulltext_5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/cnn_similarity1992fulltext_5/exp_39384a13b181",
+      "exp_id": "exp_39384a13b181",
+      "hyperparameters": {
+        "batch_size": 128,
+        "channels": 16,
+        "dropout": 0.2,
+        "epochs": 40,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "head_activation": "elu",
+        "kernel_size": 3,
+        "learning_rate": 0.01,
+        "model_type": "cnn",
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "sequence_representation": "[cites_2021, cosine_tfidf_similarity] as 2 steps",
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.4862491190433502,
+        "mse": 1.5944409370422363,
+        "r2": 0.46031265181544456,
+        "rmse": 1.2627117394885645
+      }
+    },
+    "lstm": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/lstm_similarity1992fulltext_5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/lstm_similarity1992fulltext_5/exp_c954864828df",
+      "exp_id": "exp_c954864828df",
+      "hyperparameters": {
+        "batch_size": 128,
+        "dropout": 0.2,
+        "epochs": 40,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "head_activation": "tanh",
+        "hidden_size": 32,
+        "learning_rate": 0.01,
+        "model_type": "lstm",
+        "num_layers": 2,
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "sequence_representation": "[cites_2021, cosine_tfidf_similarity] as 2 timesteps",
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.4678953289985657,
+        "mse": 0.9552058577537537,
+        "r2": 0.6766813543101721,
+        "rmse": 0.9773463345988226
+      }
+    },
+    "mlp": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/mlp_similarity1992fulltext_5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/mlp_similarity1992fulltext_5/exp_9032ff3a701e",
+      "exp_id": "exp_9032ff3a701e",
+      "hyperparameters": {
+        "activation": "elu",
+        "batch_size": 16,
+        "dropout": 0.2,
+        "epochs": 30,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "hidden_sizes": [
+          128,
+          64,
+          32
+        ],
+        "learning_rate": 0.003,
+        "model_type": "mlp",
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.43973711133003235,
+        "mse": 0.8901893496513367,
+        "r2": 0.6986881675608665,
+        "rmse": 0.9434984629830282
+      }
+    },
+    "rnn": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/rnn_similarity1992fulltext_5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/rnn_similarity1992fulltext_5/exp_e6b42a0ad66a",
+      "exp_id": "exp_e6b42a0ad66a",
+      "hyperparameters": {
+        "batch_size": 16,
+        "dropout": 0.2,
+        "epochs": 50,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "head_activation": "sigmoid",
+        "hidden_size": 32,
+        "learning_rate": 0.01,
+        "model_type": "rnn",
+        "num_layers": 2,
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "sequence_representation": "[cites_2021, cosine_tfidf_similarity] as 2 timesteps",
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.44037172198295593,
+        "mse": 1.1183490753173828,
+        "r2": 0.621460539863468,
+        "rmse": 1.057520248183165
+      }
+    }
+  },
+  "selection": {
+    "dir_template": "{model}_similarity1992fulltext_5",
+    "primary_metric": "mae",
+    "tie_break": "r2 (higher is better)"
+  }
+}

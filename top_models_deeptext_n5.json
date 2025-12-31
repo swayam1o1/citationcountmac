@@ -1,0 +1,162 @@
+{
+  "best": {
+    "ann": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/ann_deeptext_n5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/ann_deeptext_n5/exp_de927269ef30",
+      "exp_id": "exp_de927269ef30",
+      "hyperparameters": {
+        "activation": "elu",
+        "batch_size": 16,
+        "dropout": 0.2,
+        "epochs": 30,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "hidden_sizes": [
+          128,
+          64,
+          32
+        ],
+        "learning_rate": 0.003,
+        "model_type": "ann",
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.47683200240135193,
+        "mse": 0.9476214051246643,
+        "r2": 0.6792485400687889,
+        "rmse": 0.9734584763227779
+      }
+    },
+    "cnn": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/cnn_deeptext_n5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/cnn_deeptext_n5/exp_43d80b2af7c3",
+      "exp_id": "exp_43d80b2af7c3",
+      "hyperparameters": {
+        "batch_size": 128,
+        "channels": 16,
+        "dropout": 0.2,
+        "epochs": 50,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "head_activation": "tanh",
+        "kernel_size": 3,
+        "learning_rate": 0.003,
+        "model_type": "cnn",
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "sequence_representation": "[cites_2021, cosine_tfidf_similarity] as 2 steps",
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.512026846408844,
+        "mse": 0.9055139422416687,
+        "r2": 0.6935010951768517,
+        "rmse": 0.9515849632280182
+      }
+    },
+    "lstm": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/lstm_deeptext_n5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/lstm_deeptext_n5/exp_1795a2f5e5a5",
+      "exp_id": "exp_1795a2f5e5a5",
+      "hyperparameters": {
+        "batch_size": 64,
+        "dropout": 0.2,
+        "epochs": 20,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "head_activation": "tanh",
+        "hidden_size": 32,
+        "learning_rate": 0.01,
+        "model_type": "lstm",
+        "num_layers": 2,
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "sequence_representation": "[cites_2021, cosine_tfidf_similarity] as 2 timesteps",
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.4833122491836548,
+        "mse": 1.2871532440185547,
+        "r2": 0.5643235830836615,
+        "rmse": 1.1345277625596275
+      }
+    },
+    "mlp": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/mlp_deeptext_n5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/mlp_deeptext_n5/exp_efea1a19ddfb",
+      "exp_id": "exp_efea1a19ddfb",
+      "hyperparameters": {
+        "activation": "tanh",
+        "batch_size": 128,
+        "dropout": 0.2,
+        "epochs": 30,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "hidden_sizes": [
+          128,
+          64,
+          32
+        ],
+        "learning_rate": 0.003,
+        "model_type": "mlp",
+        "optimizer": "rmsprop",
+        "seed": 42,
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.4590185880661011,
+        "mse": 0.9504863619804382,
+        "r2": 0.6782788083636773,
+        "rmse": 0.9749289009873685
+      }
+    },
+    "rnn": {
+      "base_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/rnn_deeptext_n5",
+      "exp_dir": "/Users/swayamprabha/Downloads/citationcountmac-main/rnn_deeptext_n5/exp_b4103d73fa33",
+      "exp_id": "exp_b4103d73fa33",
+      "hyperparameters": {
+        "batch_size": 8,
+        "dropout": 0.2,
+        "epochs": 20,
+        "features": [
+          "cites_2021",
+          "cosine_tfidf_similarity"
+        ],
+        "head_activation": "elu",
+        "hidden_size": 32,
+        "learning_rate": 0.003,
+        "model_type": "rnn",
+        "num_layers": 2,
+        "optimizer": "adam",
+        "seed": 42,
+        "sequence_representation": "[cites_2021, cosine_tfidf_similarity] as 2 timesteps",
+        "target": "cites_2022",
+        "train_ratio": 0.9
+      },
+      "metrics": {
+        "mae": 0.44255030155181885,
+        "mse": 0.8578290343284607,
+        "r2": 0.7096415053830767,
+        "rmse": 0.926190603671005
+      }
+    }
+  },
+  "selection": {
+    "primary_metric": "mae",
+    "tie_break": "r2 (higher is better)"
+  }
+}
